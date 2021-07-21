@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+main > section > form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid grey;
+    border-radius: 20px;
+    padding: 5vh;
+    margin-top: 20vh;
+    background: #fff;
+}
+
+main > section > form > input:first-of-type {
+    width: 20vw;
+    height: 5vh;
+}
+
+main > section > form > input:first-of-type[type=text] {
+    font-size: 1.1em;
+}
+
+main > section > form > h1 {
+    font-size: 2em;
+}
+
+main > section > form > input:last-of-type {
+    background: rgb(3, 241, 3);
+    width: 20vw;
+    height: 5vh;
+}
